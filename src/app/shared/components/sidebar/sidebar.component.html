@@ -1,0 +1,14 @@
+<section class="bg-info vh-100 sticky overflow-hidden">
+    <ul class="pt-5">
+        @for (item of Menu; track item.link) {
+            @if (item.isActive) {
+                <li class="text-white">
+                    <a class="text-white"  routerLink="[item.link]">
+                        <span><i [class]="item.icon"></i></span>
+                        <span class="pt-3">{{item.text}}</span>
+                    </a>
+                </li>
+            }
+        }
+    </ul>
+</section>

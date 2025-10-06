@@ -1,0 +1,35 @@
+.bg-info{
+    background-color: #0561FC !important;
+    min-height: 100vh;
+    ul{ 
+        padding: 0px;
+        li{
+             list-style: none;
+             
+            a{
+                 text-decoration: none;
+                color: white;
+                display: block;
+                padding: 8px;
+                span{
+                    padding: 0px 5px;
+                    font-size: 18px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                   
+                   
+   
+                }
+            }
+        }
+    }
+    .bg-main-transparent{
+        background-color: #EF9B284D !important;
+        color:#EF9B28 !important;
+    }
+    
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
